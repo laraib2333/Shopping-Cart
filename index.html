@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping  Cart</title>
+
+    <!-- CSS Link  -->
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+    <div class="container">
+        <h1>Shopping Cart</h1>
+
+        <label for="item-1">Enter the price of item 1:</label>
+        <input type="text" id="item-1">
+
+        <label for="qtyItem1">Enter the quantity of item 1:</label>
+        <input type="text" id="qtyItem1">
+
+        <label for="item-2">Enter the price of item 2:</label>
+        <input type="text" id="item-2">
+
+        <label for="qtyItem2">Enter the quantity of item 2:</label>
+        <input type="text" id="qtyItem2">
+
+        <button onclick="calculate()">Click Here</button>
+        <div id="message"></div>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <!-- JavaScript Link -->
+     <script src="./script.js"></script>
+</body>
+</html>
